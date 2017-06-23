@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent"
+        android:weightSum="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editb_codigoalmacen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:ems="10"
+                android:hint="@string/codigoalmacen"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editb_codigoproducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/editb_codigoalmacen"
+                android:ems="10"
+                android:hint="@string/codigoproducto"
+                android:inputType="number" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:text="@string/codigoalmacen"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView2"
+                android:layout_toLeftOf="@+id/txtcodigoalmacen"
+                android:layout_toStartOf="@+id/txtcodigoalmacen"
+                android:text="@string/codigoproducto"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtcodigoalmacen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/textView2"
+                android:textColor="#3F51B5"
+                android:textSize="17sp"
+                android:textStyle="bold|italic"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/txtcodigoproducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView16"
+                android:layout_alignLeft="@+id/txtcodigoalmacen"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/txtcodigoalmacen"
+                android:layout_below="@+id/textView2"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView16"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/textView16"
+                android:layout_below="@+id/textView16"
+                android:text="@string/valorp"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtnombreproducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView16"
+                android:layout_alignLeft="@+id/txtcodigoproducto"
+                android:layout_alignStart="@+id/txtcodigoproducto"
+                android:layout_below="@+id/txtcodigoproducto"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView15"
+                android:layout_alignRight="@+id/textView15"
+                android:layout_below="@+id/textView15"
+                android:text="@string/nombre"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtvalorproducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:layout_below="@+id/txtnombreproducto"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignLeft="@+id/txtnombreproducto"
+                android:layout_alignStart="@+id/txtnombreproducto" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnbuscar"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="14dp"
+            android:text="@string/buscar"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            tools:ignore="NewApi,UnknownId,UnusedAttribute" />
+    </LinearLayout>
+
+</RelativeLayout>

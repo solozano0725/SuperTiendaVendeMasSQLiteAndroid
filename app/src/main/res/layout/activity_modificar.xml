@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for the editor -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RegistrarActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/producto" />
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+
+
+            <EditText
+                android:id="@+id/editm_codigoalmacen"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/codigoalmacen"
+                android:inputType="number" />
+
+
+            <EditText
+                android:id="@+id/editm_codigoproducto"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/codigoproducto"
+                android:inputType="number" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/container_valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/valorp" />
+
+
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            tools:ignore="RtlHardcoded,RtlSymmetry">
+
+
+            <EditText
+                android:id="@+id/editm_valorprod"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/valor"
+                android:inputType="number" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnmodificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modificar1" />
+</LinearLayout>

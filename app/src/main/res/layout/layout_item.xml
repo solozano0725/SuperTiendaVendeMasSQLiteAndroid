@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2"
+            android:layout_toLeftOf="@+id/txtcodigoalmacen"
+            android:layout_toStartOf="@+id/txtcodigoalmacen"
+            android:text="@string/codigoproducto"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="UnknownIdInLayout" />
+
+        <TextView
+            android:id="@+id/txtcodigoproducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView16"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView2"
+            android:layout_toEndOf="@+id/textView15"
+            android:layout_toRightOf="@+id/textView15"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            tools:ignore="UnknownIdInLayout" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView16"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textView16"
+            android:layout_below="@+id/textView16"
+            android:text="@string/valorp"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtnombreproducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView16"
+            android:layout_alignLeft="@+id/txtcodigoproducto"
+            android:layout_alignStart="@+id/txtcodigoproducto"
+            android:layout_below="@+id/txtcodigoproducto"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView15"
+            android:layout_alignRight="@+id/textView15"
+            android:layout_below="@+id/textView15"
+            android:layout_toStartOf="@+id/txtcodigoproducto"
+            android:text="@string/nombre"
+            android:textAlignment="textEnd"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtvalorproducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtnombreproducto"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </RelativeLayout>
+</LinearLayout>

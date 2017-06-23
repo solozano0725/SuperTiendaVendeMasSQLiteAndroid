@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Super Tienda VentaMas</string>
+    <string name="menu">Menu Principal</string>
+    <string name="registrar">Registrar Producto</string>
+    <string name="modificar">Modificar Producto</string>
+    <string name="eliminar">Eliminar Producto</string>
+    <string name="consulta">Consultar Precio</string>
+    <string name="acerca">Acerca</string>
+    <string name="codigoalmacen">Codigo del Almacen</string>
+    <string name="codigoproducto">Codigo del Producto</string>
+    <string name="nombre">Nombre del Producto</string>
+    <string name="valor">Valor</string>
+    <string name="valorp">Valor del Producto</string>
+    <string name="producto">Producto</string>
+    <string name="listar">Listar Productos</string>
+    <string name="guardar">Guardar</string>
+    <string name="registroexitoso">Registro del producto en el almacen exitoso.</string>
+    <string name="registrodenegado">Registro anulado. Ya existe este producto en este almacen.</string>
+    <string name="modificar1">Modificar</string>
+    <string name="cambioexitoso">Cambio Exitoso!.</string>
+    <string name="cambiodenegado">Cambio no completado.</string>
+    <string name="buscar">Buscar</string>
+    <string name="eliminar1">Eliminar</string>
+    <string name="listar1">Listar</string>
+</resources>
